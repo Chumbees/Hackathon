@@ -12,12 +12,12 @@ https://developer.android.com/studio/run/managing-avds
 
 # To run: 
 
-set up env and virtual device
+Set up env and virtual device
 
-run emulator for device
+Run emulator for device
 
-npm start
+In terminal: `npm start`
 
-In a new terminal: npm run android-windows (if you followed the article)
+In a new terminal: 'npm run android-windows' (if you followed the article, else `npm run android`)
 
-App should appear in emulator, right click emulator and hit ctrl+m, then enable live reload to see changes when saving in IDE
+App should appear in emulator, right click emulator and hit `ctrl+m`, then enable live reload to see changes when saving
