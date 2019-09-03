@@ -1,2 +1,0 @@
-# Hackathon
-Nivahb Hackathon Repo
