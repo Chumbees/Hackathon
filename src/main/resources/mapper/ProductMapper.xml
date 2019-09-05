@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qvc.product.product.ProductMapper">
+	<resultMap id="ProductResult" type="com.qvc.product.product.Product">
+		<result property="productNumber" column="product_nbr" />
+		<result property="prodSalesDivCode" column="prod_sales_div_code" />
+		<result property="productType" column="product_type" />
+	</resultMap>
+	
+	<select id="findProduct" resultMap="ProductResult" flushCache="true">
+		select
+			product_nbr,
+			prod_sales_div_code,
+			product_type
+		from
+			product.prs.product
+	</select>
+</mapper>
